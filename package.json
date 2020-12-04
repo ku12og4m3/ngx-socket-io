@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "build": "ng-packagr",
-    "postinstall": "cd .\\node_modules\\ngx-socket-io && npm install && npm run build"
+    "postinstall": "cd C:/Users/Chauntelle/Documents/Multimedia Media Ventures/Silicon Valley Anime Club/Apps/WeebMeet/v100/weebmeet/node_modules/ngx-socket-io"
   },
   "repository": {
     "type": "git",
