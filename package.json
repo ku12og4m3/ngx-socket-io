@@ -4,7 +4,8 @@
   "description": "Socket.IO module for Angular",
   "main": "index.ts",
   "scripts": {
-    "build": "ng-packagr"
+    "build": "ng-packagr",
+    "postinstall": "cd node_modules/ngx-socket-io && npm install && npm run build"
   },
   "repository": {
     "type": "git",
