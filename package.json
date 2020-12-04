@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "build": "ng-packagr",
-    "postinstall": "cd ./node_modules/ngx-socket-io && npm install && npm run build"
+    "postinstall": "cd .\\node_modules\\ngx-socket-io && npm install && npm run build"
   },
   "repository": {
     "type": "git",
